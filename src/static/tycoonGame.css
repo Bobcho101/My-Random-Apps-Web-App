@@ -1,0 +1,112 @@
+    a{
+       text-decoration: none;
+       color: white;
+      }
+
+   
+      h1 {
+          margin: 10px 0;
+          font-size: 1.5rem;
+          text-align: center;
+      }
+      
+      button {
+          background-color: #4caf50;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 8px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: background-color 0.3s, transform 0.2s;
+      }
+      
+      button:hover {
+          background-color: #45a049;
+          transform: scale(1.05);
+      }
+      
+      button:active {
+          transform: scale(0.95);
+      }
+      
+      button:disabled {
+          background-color: #ccc;
+          cursor: not-allowed;
+      }
+      
+      #my-money, #generated-money, #generator-multyplayer, #my-upgrade {
+          background-color: white;
+          padding: 15px;
+          margin: 10px 0;
+          width: 325px;
+          text-align: center;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      #farmers-box{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-wrap: nowrap;
+      }
+      #clicker{
+       width: 32px; 
+       height: 30px; 
+       border-radius: 50%; 
+       background-color: #4caf50; 
+       color: white;
+       border: none;
+       font-size: 1rem;
+       padding: 2em;
+       display: flex; 
+       justify-content: center;
+       align-items: center;
+       cursor: pointer;
+       transition: background-color 0.3s, transform 0.2s;
+       margin-top: 2em;
+       user-select: none;
+       margin-left: 50%;
+       transform: translateX(-50%);
+      }
+      #clicker:active{
+       background-color:aqua;
+      }
+      #collect-btn, #upgrade-btn {
+          margin: 10px 5px;
+      }
+      #notification-box{
+       background-color: red;
+       color: white;
+       width: 200px;
+       height: 30px;
+       border: 2px solid black;
+       transition: 0.3s;
+       transform: translateY(-250em);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+      }
+      
+      @media (max-width: 600px) {
+          h1 {
+              font-size: 1.2rem;
+          }
+          button {
+              padding: 8px 15px;
+              font-size: 0.9rem;
+          }
+          /* #my-money, #generated-money, #generator-multyplayer, #my-upgrade {
+               width: 0%;
+          }  */
+      }
+      @media (max-width: 365px) {
+           #my-money, #generated-money, #generator-multyplayer, #my-upgrade {
+               width: 80%;
+               text-wrap: wrap;
+           }
+       }
+       @media (max-height: 365px) {
+           
+       }

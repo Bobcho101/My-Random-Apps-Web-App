@@ -1,0 +1,21 @@
+{
+  "name": "try-3",
+  "version": "1.0.0",
+  "description": "Try 3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "^3.2.1",
+    "page": "^1.11.6",
+    "pagew": "^0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3"
+  }
+}
